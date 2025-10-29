@@ -12,6 +12,8 @@ The **Post & Likes App** is a simple **ReactJS** application designed to demonst
 
 In this app, users can view multiple posts and click the **Like** button to increase the like count instantly. The app updates the UI dynamically without reloading, showing how **React state** and **component-based design** work together efficiently.
 
+An extra feature allows users to add their own posts, which appear immediately in the list — showcasing how React handles user input and component re-rendering.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -27,7 +29,7 @@ In this app, users can view multiple posts and click the **Like** button to incr
 
 ✅ View a list of posts dynamically  
 ✅ Like any post to increase its count in real time  
-✅ Add new posts with title and content (optional feature)  
+✅ Add new posts with title and content  
 ✅ Modern, responsive UI with hover effects  
 ✅ Smooth React state updates without reloading  
 
