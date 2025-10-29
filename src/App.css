@@ -1,0 +1,108 @@
+/* 🌟 General App Layout */
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* 🧾 App Title */
+.App h1 {
+  color: #2d3436;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* 🗂 Post List */
+.post-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 📜 Post Card */
+.post {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.post h3 {
+  margin-bottom: 8px;
+  color: #2d3436;
+}
+
+.post p {
+  margin-bottom: 12px;
+  color: #636e72;
+}
+
+/* ❤️ Like Button */
+.post button {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s ease;
+}
+
+.post button:hover {
+  background-color: #0873c3;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+  .post {
+    padding: 15px;
+  }
+
+  .App h1 {
+    font-size: 22px;
+  }
+}
+/* 📝 New Post Form */
+.new-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+}
+
+.new-post-form button {
+  align-self: flex-end;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.new-post-form button:hover {
+  background-color: #009875;
+}
