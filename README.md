@@ -56,7 +56,7 @@ This project helped me understand:
 
 ## 🧪 Live Demo
 
-👉 [View the live demo](https://mylapalliyesebu.github.io/post-likes-app/)
+👉 [View the live demo](https://mylapalliyesebu.github.io/post-likes-app-react/)
 
 ---
 
